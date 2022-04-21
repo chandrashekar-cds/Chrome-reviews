@@ -92,7 +92,7 @@ cm = confusion_matrix(y_test, y_pred)
 
 
 uploaded_file = st.file_uploader("Choose a file for checking review/rating discrepancy")
-st.write("Waiting for input")
+st.write("Waiting for input -(ignore the error message below as its due to waiting for input)")
 if uploaded_file is not None:
     
      # Can be used wherever a "file-like" object is accepted:
