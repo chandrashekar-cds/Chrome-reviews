@@ -16,7 +16,7 @@ st.title("Chrome Reviews - positive reviews with low ratings")
 import pandas as pd
 
 
-df = pd.read_csv('C:\\Users\\Chakrapani\\Documents\\Next_ASO\\chrome_reviews.csv')
+df = pd.read_csv('chrome_reviews.csv')
 #df.head()
 
 
